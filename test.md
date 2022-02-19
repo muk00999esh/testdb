@@ -25,3 +25,26 @@ sequenceDiagram
     Bob-->>John: Jolly good!
             
 ```
+
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
+    style A fill:green
+    style B fill:red
+    style C fill:lightgreen
+    style D fill:yellow   
+```    
+
+
+```mermaid
+pie
+    title Apple
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
+```    
